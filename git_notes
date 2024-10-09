@@ -1,0 +1,95 @@
+What is git? 
+
+A multi person storage system 
+
+Git needs a repository (something that gives to u (kind of like a storage space)). It's a system that can combine different copies into one main copy. It starts with three people (for example), they decide to make something. First, they start with a repository which is basically the main ‘branch’. Then they split the main branch into copies for each person. After that, each person works on their copy, regularly saving in their own copy (git commit). Then when one person finished, they do something called a pull. A pull is a command that checks to see if there is code clashing other code (same slot). Once finished, that person saves the new main branch. Rinse and repeat.  
+
+ 
+
+What is a compiler? 
+
+Translates words to binary 
+
+ 
+
+How to use git; 
+
+Create new directory (mkdir (project name), then cd (project name)) 
+
+Start a git (git init) 
+
+Create a new file (echo "# (project name)" > (name).md) 
+
+Check the status of the repository (git status) 
+
+Add the file to the “staging area” (git add (name).md) 
+
+Commit to your changes (git commit -m "Initial commit with (name)") 
+
+Create a new branch (git branch (name-2)) 
+
+Go to the new branch (git checkout (name-2)) 
+
+Make changes to (name).md file (echo "(whatever u want)." >> (name).md file 
+
+‘stage’ and commit changes (git add (name –2).md then, git commit -m "Add feature branch information") 
+
+Switch branches to main (git checkout main) 
+
+Merge the feature branch (git merge my_feature) 
+
+Make a change a change to (name –2) (echo "An additional line." >> (name –2).md) 
+
+‘stage’ the change (git add (name –2).md) 
+
+Undo the ‘stage’ change (git reset HEAD (name-2.md) 
+
+Check status 
+
+Discard changes (be careful) (git checkout -- (name-2).md) 
+
+View commit history (git log) 
+
+Use a shorter log format (git log --oneline) 
+
+View specific changes to commit (git show (commit git id) 
+
+Reset txt to the previous change (git restore (file.txt)) 
+
+remove a file from git but keep it in the directory (echo “(name of file)”>>.gitingnore) 
+
+Stage it (git add .gitignore) 
+
+To remove it from repository (git rm –-cached (file.txt)) 
+
+ 
+
+How to setup git aliases (git shortcuts) 
+
+Create an alias for status:bash -[git config --global alias.st status] 
+
+Now you can use git st instead of git status. 
+
+Similarly, create aliases for other commands: 
+
+For commit: bash -[git config --global alias.ci commit] 
+
+For checkout:bash -[git config --global alias.co checkout] 
+
+for branch: bash -[git config --global alias.br branch] 
+
+Tag a Commit: bash -[git tag -a v1.0 -m "message"] 
+
+Reset Commits: bash -[git reset --soft HEAD~1]bash -[git reset --hard HEAD~1] 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Adventure game in git 
+
+Cd AdventureGame 

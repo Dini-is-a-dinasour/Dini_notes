@@ -1,0 +1,17 @@
+How to download Debian 11.64 
+
+First make a folder, then download Debian to that folder (makes sure the folder is located in: D drive) 
+
+ 
+
+Then open VMware and make a new vr machine 
+
+Make sure everything is linked to the folder, and the last question (under “name your vr machine) make sure to make a new folder within the previous folder!! 
+
+ 
+
+Now once completed, play vr machine or double click the Dini vr machine tab. 
+
+Now make it a graphical install 
+
+Then click English, Canada, and US English... 
