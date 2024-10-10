@@ -1,0 +1,186 @@
+Linux basic commands (written in short form) 
+
+ 
+
+ls 
+
+ 
+
+ 
+
+What it does: Lists files and directories in the current directory. 
+
+Usage: ls or ls [directory] 
+
+Example: ls /home/user 
+
+cd 
+
+  
+
+What it does: Changes the current directory. 
+
+Usage: cd [directory] 
+
+Example: cd /home/user/Documents 
+
+pwd 
+
+  
+
+What it does: Prints the current working directory. 
+
+Usage: pwd 
+
+Example: pwd (might show /home/user/Documents) 
+
+mkdir 
+
+  
+
+What it does: Creates a new directory. 
+
+Usage: mkdir [directory] 
+
+Example: mkdir new_folder (spaces makes a different directory!) 
+
+rmdir 
+
+ 
+
+ 
+
+What it does: Removes an empty directory. 
+
+Usage: rmdir [directory] 
+
+Example: rmdir old_folder 
+
+rm 
+
+  
+
+What it does: Removes files or directories. 
+
+Usage: rm [file] or rm -r [directory] 
+
+Example: rm file.txt or rm -r folder_name 
+
+cp 
+
+  
+
+What it does: Copies files or directories. 
+
+Usage: cp [source] [destination] 
+
+Example: cp file.txt /home/user/backup/ 
+
+mv 
+
+  
+
+What it does: Moves or renames files or directories. 
+
+Usage: mv [source] [destination] 
+
+Example: mv file.txt new_name.txt or mv file.txt /home/user/backup/ 
+
+cat 
+
+ 
+
+ 
+
+What it does: Displays the contents of a file. 
+
+Usage: cat [file] 
+
+Example: cat file.txt 
+
+echo 
+
+  
+
+What it does: Displays a line of text or a variable value. 
+
+Usage: echo [text] 
+
+Example: echo "Hello, World!" 
+
+man 
+
+  
+
+What it does: Shows the manual page for a command. 
+
+Usage: man [command] 
+
+Example: man ls 
+
+chmod 
+
+  
+
+What it does: Changes file permissions. 
+
+Usage: chmod [permissions] [file] 
+
+Example: chmod 755 script.sh 
+
+ps 
+
+ 
+
+What it does: Displays currently running processes. 
+
+Usage: ps or ps aux 
+
+Example: ps aux (shows all processes) 
+
+kill 
+
+  
+
+What it does: Terminates a process. 
+
+Usage: kill [PID] 
+
+Example: kill 1234 (where 1234 is the process ID) 
+
+grep 
+
+  
+
+What it does: Searches for patterns in files. 
+
+Usage: grep [pattern] [file] 
+
+Example: grep "search_term" file.txt 
+
+sudo 
+
+  
+
+What it does: Executes a command as a superuser. 
+
+Usage: sudo [command] 
+
+Example: sudo apt-get update 
+
+ 
+
+How to change host name 
+
+sudo nano /etc/hostname 
+ 
+
+Replace the existing hostname with your new hostname, then save and exit (Ctrl + X, then 
+
+ Y, then Enter). 
+
+ 
+
+How to repeat echo in debian 
+
+for i in {1..5}; do echo "This is echo command $i"; done 
