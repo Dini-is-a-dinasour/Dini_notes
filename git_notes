@@ -93,3 +93,7 @@ Reset Commits: bash -[git reset --soft HEAD~1]bash -[git reset --hard HEAD~1]
 Adventure game in git 
 
 Cd AdventureGame 
+how to run AdventureGame:
+cd AdventureGame
+chmod +x game.sh (makes it activatible)
+./game.sh (activates it)
