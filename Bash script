@@ -1,0 +1,62 @@
+A Bash script is a plain text file which contains a series of commands. These commands are a mixture of commands we would normally type ouselves
+ on the command line (such as ls or cp for example) and commands we could type on the command line but generally wouldn't.
+
+HOW TO USE BASH 
+A typical Bash script starts with a "shebang" (#!/bin/bash), which tells the system to use the Bash interpreter to run the script.
+
+purpose of (#!/bin/bash) 
+Interpreter Directive: It tells the operating system which interpreter to use to execute the script. In this case, it specifies that the script should be run using the Bash shell located at /bin/bash.
+
+Portability: Including the shebang ensures that the script can be executed on any system where Bash is installed, without needing to specify the interpreter explicitly each time you run the script.
+
+Script Execution: When you run a script with the shebang line, the system knows to invoke Bash to interpret the commands in the script.
+
+
+bash commands
+make sure you type (#!/bin/bash) before typing the rest
+File and Directory Management:
+
+ls: List files and directories in the current directory.
+cd [directory]: Change to the specified directory.
+mkdir [directory]: Create a new directory.
+rmdir [directory]: Remove an empty directory.
+rm [file]: Remove a file.
+cp [source] [destination]: Copy files or directories.
+mv [source] [destination]: Move or rename files or directories.
+File Viewing and Manipulation:
+
+cat [file]: Display the contents of a file.
+less [file]: View a file one screen at a time.
+head [file]: Display the first few lines of a file.
+tail [file]: Display the last few lines of a file.
+grep [pattern] [file]: Search for a pattern in a file.
+System Information:
+
+pwd: Print the current working directory.
+whoami: Show the current user.
+top: Display active processes and system resource usage.
+df -h: Show disk space usage in a human-readable format.
+free -h: Display memory usage in a human-readable format.
+Process Management:
+
+ps: Display currently running processes.
+kill [PID]: Terminate a process by its process ID.
+bg: Resume a suspended job in the background.
+fg: Bring a job to the foreground.
+Networking:
+
+ping [hostname]: Test connectivity to a host.
+curl [URL]: Retrieve data from a URL.
+wget [URL]: Download files from the web.
+Text Processing:
+
+awk '{print $1}' [file]: Print the first column of a file.
+sed 's/old/new/g' [file]: Replace occurrences of "old" with "new" in a file.
+Permissions:
+
+chmod [permissions] [file]: Change the file permissions.
+chown [user]:[group] [file]: Change the file owner and group.
+Searching:
+
+find [path] -name [pattern]: Search for files and directories matching a pattern.
+locate [file]: Quickly find files by name.
