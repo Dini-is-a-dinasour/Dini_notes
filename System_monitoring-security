@@ -1,0 +1,32 @@
+SYSTEM monitoring
+System monitoring refers to the continuous observation and analysis of a computer system's performance and health.
+ This process involves tracking stats to ensure that the system operates efficiently and to find issiues with the computer.
+ Key components of system monitoring include:
+
+ 1. Resource Usage Tracking
+CPU Usage: Monitoring the processor's load and utilization to ensure it’s not overloaded.
+Memory Usage: Checking RAM consumption to prevent slowdowns or crashes.
+Disk Usage: Observing available disk space and I/O operations to manage storage effectively.
+Network Activity: Tracking bandwidth usage and network connections to ensure smooth communication.
+
+2. Performance Metrics
+Monitoring response times, transaction rates, and other performance indicators to gauge system responsiveness.
+
+3. System Health Checks
+Regular checks on hardware components (like disk health and temperature) to prevent failures.
+Monitoring software services to ensure they are running and responsive.
+
+4. Alerts and Notifications
+Setting up alerts for strange conditions (e.g., high CPU usage or low disk space) to notify administrators.
+
+5. Logging and Analysis
+Collecting logs from various components to analyze past behavior and troubleshoot issues.
+
+6. Tools and Tech
+Using monitoring tools (like Nagios, Zabbix, Prometheus, or Grafana) to see data and automate monitoring processes.
+
+commands for system monitoring:
+top: displays REAL-time info about running processes
+htop: enhanced version of top
+df: displays disk space usage
+uptime: shows how long the system has been running

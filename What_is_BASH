@@ -1,0 +1,14 @@
+Bash, which stands for "Bourne Again SHell," is a command-line interpreter widely used in Linux and other operating systems.
+ It serves several key purposes:
+
+Command Execution: Bash allows users to use commands and run programs directly from the terminal.
+
+Scripting: Users can write scripts to automate tasks, from simple file operations to complex system management tasks.
+
+File Manipulation: Bash provides commands to create, delete, move, and manage files and directories.
+
+Process Control: It allows users to manage processes, including starting, stopping, and monitoring running programs.
+
+Environment Customization: Users can configure their shell environment by setting variables and creating aliases to streamline their workflow.
+
+User Interaction: Bash supports user input and provides tools for prompting and handling input/output, making it suitable for interactive scripts.

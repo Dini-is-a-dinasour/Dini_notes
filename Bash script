@@ -1,5 +1,3 @@
-A Bash script is a plain text file which contains a series of commands. These commands are a mixture of commands we would normally type ouselves
- on the command line (such as ls or cp for example) and commands we could type on the command line but generally wouldn't.
 
 HOW TO USE BASH 
 A typical Bash script starts with a "shebang" (#!/bin/bash), which tells the system to use the Bash interpreter to run the script.
@@ -60,3 +58,11 @@ Searching:
 
 find [path] -name [pattern]: Search for files and directories matching a pattern.
 locate [file]: Quickly find files by name.
+
+loops:
+for: writes the list in a certian order
+while: loop continues AS long as a specified condition is true
+until: loop continues UNTIL a specified condition becomes true
+C-style for: variation of for loop that uses a c-like syntax (is a type of structure)
+Nested Loop: a loop inside of a loop (loop[loop2])
+you can use loops to process files in a directory 
