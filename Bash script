@@ -53,6 +53,7 @@ sed 's/old/new/g' [file]: Replace occurrences of "old" with "new" in a file.
 Permissions:
 
 chmod [permissions] [file]: Change the file permissions.
+example to make a file executable (chmod +x [filename])
 chown [user]:[group] [file]: Change the file owner and group.
 Searching:
 

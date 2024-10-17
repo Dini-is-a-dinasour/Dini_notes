@@ -30,3 +30,34 @@ top: displays REAL-time info about running processes
 htop: enhanced version of top
 df: displays disk space usage
 uptime: shows how long the system has been running
+
+SECURITY
+
+user management
+delete: deluser {option below} (username)
+options:
+--remove-home: deletes user's home directory as well as the user
+--remove-all-files: deletes user's files (all of them)
+--force: Forces a delete of user, no questions asked
+*make sure you delete somebody in the root directory
+
+fire wall basics:
+
+Types of Firewalls
+Packet Filtering Firewall: Inspects a little bit of the message (packets) and allows or blocks them based on IP addresses, ports, and protocols.
+Stateful Inspection Firewall: Monitors the state of active connections and makes decisions based on the context of traffic.
+Proxy Firewall: Acts as an intermediary between users and the internet, filtering requests and responses.
+Next-Generation Firewall (NGFW): Combines traditional firewall capabilities with additional features like intrusion detection and application awareness.
+
+Key Concepts
+Rules: Firewalls operate based on rules that define which traffic is allowed or denied.
+Zones: Networks can be segmented into zones (e.g., internal, external, DMZ) to apply different rules.
+Logging: Firewalls can log traffic and events for monitoring and auditing purposes.
+
+What is UFW?
+UFW is a kids version of a Firewall, it inables humans to understand the Firewall's rules
+To enable UFW type (sudo ufw enable) no caps 
+To disable UFW type (sudo ufw disable) no caps 
+check UFW (sudo ufw status) no caps
+how to allow a port: (sudo ufw allow [port_number])
+how to deny a port (sudo ufw deny [port_number])
