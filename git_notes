@@ -62,7 +62,7 @@ Stage it (git add .gitignore)
 
 To remove it from repository (git rm –-cached (file.txt)) 
 
- 
+To check where the git repo is located while still being in that git repo (git rev-parse --show-toplevel)
 
 How to setup git aliases (git shortcuts) 
 
