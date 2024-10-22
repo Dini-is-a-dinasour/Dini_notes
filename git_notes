@@ -18,7 +18,7 @@ Create new directory (mkdir (project name), then cd (project name))
 
 Start a git (git init) 
 
-Create a new file (echo "# (project name)" > (name).md) 
+Create a new file (touch (name.md)) 
 
 Check the status of the repository (git status) 
 
@@ -30,7 +30,7 @@ Create a new branch (git branch (name-2))
 
 Go to the new branch (git checkout (name-2)) 
 
-Make changes to (name).md file (echo "(whatever u want)." >> (name).md file 
+Make changes to (name).md file (echo "(whatever u want)." >> (name).md file) 
 
 ‘stage’ and commit changes (git add (name –2).md then, git commit -m "Add feature branch information") 
 
@@ -42,7 +42,7 @@ Make a change a change to (name –2) (echo "An additional line." >> (name –2)
 
 ‘stage’ the change (git add (name –2).md) 
 
-Undo the ‘stage’ change (git reset HEAD (name-2.md) 
+Undo the ‘stage’ change (git reset HEAD (name-2.md)) 
 
 Check status 
 
@@ -52,7 +52,7 @@ View commit history (git log)
 
 Use a shorter log format (git log --oneline) 
 
-View specific changes to commit (git show (commit git id) 
+View specific changes to commit (git show (commit git id)) 
 
 Reset txt to the previous change (git restore (file.txt)) 
 
