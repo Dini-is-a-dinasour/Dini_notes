@@ -8,7 +8,7 @@ Interpreter Directive: It tells the operating system which interpreter to use to
 Portability: Including the shebang ensures that the script can be executed on any system where Bash is installed, without needing to specify the interpreter explicitly each time you run the script.
 
 Script Execution: When you run a script with the shebang line, the system knows to invoke Bash to interpret the commands in the script.
-
+variables: Variables are a basicly a container that stores values (commands or actions). b = ping 
 
 bash commands
 make sure you type (#!/bin/bash) before typing the rest
