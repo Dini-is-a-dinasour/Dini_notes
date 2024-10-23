@@ -37,6 +37,8 @@ df -h: Show disk space usage in a human-readable format.
 free -h: Display memory usage in a human-readable format.
 Process Management:
 
+extra stuff:
+pause in echo: sleep 10 && echo "your message here"
 ps: Display currently running processes.
 kill [PID]: Terminate a process by its process ID.
 bg: Resume a suspended job in the background.
