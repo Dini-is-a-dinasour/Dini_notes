@@ -69,3 +69,11 @@ until: loop continues UNTIL a specified condition becomes true
 C-style for: variation of for loop that uses a c-like syntax (is a type of structure)
 Nested Loop: a loop inside of a loop (loop[loop2])
 you can use loops to process files in a directory 
+how to make a loop randomly pick a sentence:
+word=(
+ "word"
+ "word2"
+ "word3"
+) <(endsbracketbtw)
+Random=$[Random-t % ${#word4(@)}]
+echo "${sentences[$Random]
