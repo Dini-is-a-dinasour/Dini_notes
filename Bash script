@@ -71,9 +71,9 @@ Nested Loop: a loop inside of a loop (loop[loop2])
 you can use loops to process files in a directory 
 how to make a loop randomly pick a sentence:
 word=(
- "word"
+ "word1"
  "word2"
  "word3"
 ) <(endsbracketbtw)
-Random=$[Random-t % ${#word4(@)}]
+Random=$[Random-t % ${#word(@)}]
 echo "${sentences[$Random]
