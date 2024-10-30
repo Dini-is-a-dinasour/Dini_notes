@@ -69,11 +69,24 @@ until: loop continues UNTIL a specified condition becomes true
 C-style for: variation of for loop that uses a c-like syntax (is a type of structure)
 Nested Loop: a loop inside of a loop (loop[loop2])
 you can use loops to process files in a directory 
-how to make a loop randomly pick a sentence:
-word=(
- "word1"
- "word2"
- "word3"
-) <(endsbracketbtw)
-Random=$[Random-t % ${#word(@)}]
-echo "${sentences[$Random]
+how to make "shuf" randomly pick a sentence:
+random_sentence=$(shuf -n 1 -e \
+    "sentence" \
+    "diffrentsentence" \
+    "diffsentence2" \
+    "diff diff sentence" \
+    "diffx3sentence.")
+echo "$random_sentence"
+HOW RANDOMIZER WORKS:
+shuf: This command shuffles lines of text or selects random lines from input.
+
+-n 1: This option tells shuf to output only one sentence (or one entry) from the shuffled input.
+
+-e: This option allows you to specify the list of entries^ directly in the command line.
+Each entry that follows -e is treated as an option for shuffling (shuf).
+
+The backslash at the end of the sentence is used to show that the command continues on the next line.
+This allows you to break long commands into multiple lines for better readability.
+
+The braket (on the start just before shuf and end of last sentence) clumps everything inside of it into one single command. And it also says that the commands are
+defined together
