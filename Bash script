@@ -63,7 +63,7 @@ find [path] -name [pattern]: Search for files and directories matching a pattern
 locate [file]: Quickly find files by name.
 
 loops:
-for: writes the list in a certian order
+for: writes the list in a certian order, or (using ;then) can run a command depending on user input or statistic
 while: loop continues AS long as a specified condition is true
 until: loop continues UNTIL a specified condition becomes true
 C-style for: variation of for loop that uses a c-like syntax (is a type of structure)
