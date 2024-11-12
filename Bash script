@@ -90,3 +90,32 @@ This allows you to break long commands into multiple lines for better readabilit
 
 The braket (on the start just before shuf and end of last sentence) clumps everything inside of it into one single command. And it also says that the commands are
 defined together
+
+Input output redirections:
+> (Output Redirection)
+
+Redirects standard output (stdout)(program) to a file.
+creates file if it doesn't exist.
+Does overwrite existing content if it exists.
+for example: echo "something" > file.txt
+>> (Append Output Redirection)
+
+Appends standard output (stdout) to a file.
+Creates the file if it doesn't exist.
+Does NOT overwrite existing content if it exists.
+Example: echo "World" >> file.txt
+< (Input Redirection)
+
+Redirects standard input (stdin) from a file into/infront of command.
+Example: cat < file.txt
+Piping (|)
+
+takes the standard output (stdout) of one command and sends it to the standard input (stdin) of another command.
+ends up combining two commands together.
+(|) is not L, it is the thing under backspace and ontop of backslash!
+for example: ls | less
+Lists the contents of the current directory
+and pipes the output to less, which lets you scroll through the list page by page.
+cat file.txt | grep "error" | sort | uniq
+this command line, takes the stuff from file.txt, finds the sentences that say error with grep, sort it so that it looks nice, and then remove duplicated lines.
+
