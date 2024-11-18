@@ -65,3 +65,30 @@ Connect devices within a LAN.
 
 Forward data to specific devices based on MAC addresses. 
 
+Permisions (Octal notatiem)
+example (-|r-x|rw-|rw-)
+r: read
+x: executable
+w: write
+-: nothing
+each section indecated by "|" is a section of persons
+the first one before the first "|" is what the permission is permissioning, - is file and d is directory
+the second section is what the owner of that file/directory can do
+the third one is what the group (connected to the owner) can do
+the last one is what anyone else can do
+normaly, chomd +x is what is used for activating the file, but it allowes anyone with the file, including strangers, to exicute it.
+Though, with Octal notatiem, you can change the permisions on how u like
+to do this do;
+
+chmod _ _ _ (numbers are spaced)
+the order of underlines are: owner, group and other
+you must use numbers in order to activate chmod (btw chmod is "change modifacation")
+here are the numbers:
+7 = rwx
+6 = rw-
+5 = r-x
+4 = r--
+3 = -wx
+2 = -w-
+1 = --x
+0 = ---
