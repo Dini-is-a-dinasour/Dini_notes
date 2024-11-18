@@ -95,5 +95,5 @@ Adventure game in git
 Cd AdventureGame 
 how to run AdventureGame:
 cd AdventureGame
-chmod +x game.sh (makes it activatible)
-./game.sh (activates it)
+chmod +x game.sh (makes it activatible)(look at DINI's_notes for more info)
+bash game.sh (activates it)
