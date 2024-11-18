@@ -54,7 +54,7 @@ awk '{print $1}' [file]: Print the first column of a file.
 sed 's/old/new/g' [file]: Replace occurrences of "old" with "new" in a file.
 Permissions:
 
-chmod [permissions] [file]: Change the file permissions.
+chmod [permissions] [file]: Change the file permissions. !check DINI's_notes for more info, and specification
 example to make a file executable (chmod +x [filename])
 chown [user]:[group] [file]: Change the file owner and group.
 Searching:
