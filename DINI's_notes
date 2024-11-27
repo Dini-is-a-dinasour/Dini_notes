@@ -92,3 +92,21 @@ here are the numbers:
 2 = -w-
 1 = --x
 0 = ---
+
+Users and permissions;
+First of all, The main system actully has to make the code for the users, in order to do that, it "defines" what the systems are and how their used
+The first section, Users;
+Users are like accounts, they have names and hold value. Under that, users can be could be represented in 4 general types:
+Root user: usally owns the actuall system. Has the highest form of permission.
+Regular user: Someone who is ascociated to the Root user in some way, and has somewhat limited access.
+Daemon user: !Not a person! The account of which runs background scripts (without notice) autonomisly. An example is, a system activates whenever you click a file
+and checks whether or not you have access.
+Guest: Has very limited access.
+
+File systems are a structure for the MAIN system to organize, store and manage files on a device. This allows easy access of files.
+Theres a problem, if you were to leave it like that, anyone can access anything from any file or directory. How do we solve that? With permissions
+Permissions govern the file system so that nobody accessess what is not allowed. The only way to gain access is by having the correct permissions.
+An example is a website, if somebody were to access the website because there is no permissions, they gain access and can change anything.
+But with permissions, only some people are allowed to make changes while everybody cannot.
+
+
