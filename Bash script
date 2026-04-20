@@ -119,3 +119,5 @@ and pipes the output to less, which lets you scroll through the list page by pag
 cat file.txt | grep "error" | sort | uniq
 this command line, takes the stuff from file.txt, finds the sentences that say error with grep, sort it so that it looks nice, and then remove duplicated lines.
 
+use this link to learn about some features like copying files into anoter thing etc:
+https://labex.io/lesson/the-shell
