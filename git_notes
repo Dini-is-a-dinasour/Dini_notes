@@ -14,6 +14,30 @@ Translates words to binary
 just type: sudo apt install git
 and hit enter
 
+after you must add an ssh key to the vm so that it allows it to copy and paste from git to the vm.
+
+First go into your vm, type ls -la~/.ssh, this is to check if you have an ssh key already. you should see something like this:
+id_ed25519
+id_ed25519.pub
+
+If you dont see it, generate one, type: ssh-keygen -t ed25519 -C "github email" (with "")
+
+display pub key: cat ~/.ssh/id_ed25519.pub
+
+Open GitHub SSH and GPG keys 
+
+Click New SSH key.
+
+Give it a name, such as Debian 13 VM.
+
+Select Authentication Key.
+
+Paste the public key.
+
+Click Add SSH key.
+run ssh -T git@github.com on vm, if it says Hi your-github-username! You've successfully authenticated,
+but GitHub does not provide shell access. it did it succesfully.
+
 How to use git; 
 
 Create new directory (mkdir (project name), then cd (project name)) 
