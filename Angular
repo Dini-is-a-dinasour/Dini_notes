@@ -1,0 +1,22 @@
+how to download Angular:
+
+First download curl;
+sudo apt update
+sudo apt install curl
+
+then verify u have it;
+curl --version
+
+then paste this command:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+nvm --version
+
+your good to go! funding means donations, just ignore that future dini ;)
+
+what is Angular:
+Its a way to make a dynamic and interactve web applications
+(easier html?
+
+
+Tutorials:
+https://angular.dev/tutorials/learn-angular/1-components-in-angular
